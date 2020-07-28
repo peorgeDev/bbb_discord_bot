@@ -1,0 +1,18 @@
+{
+  "name": "bbb_discord_bot",
+  "version": "1.0.0",
+  "description": "BBB discord bot",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^3.3.3",
+    "youtube-search": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "author": "Benjamin Levine",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+	"name": "BBB",
+	"version": "1.0.0",
+	"description": "The one and only BBB",
+	"main": "bot.js",
+	"author": "Benjamin Levine",
+	"dependencies": {
+		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+		"winston": "^3.3.3"
+	},
+	"scripts": {
+		"start": "node bot.js"
+	}
+}

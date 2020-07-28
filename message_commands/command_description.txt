@@ -1,0 +1,5 @@
+Commands in this folder will all be loaded at the startup of the bot (subject to change), and are expected to export an object with the following format:
+{
+	trigger: "a trigger for the command, should start with a '!' barring special cases"
+	handler: "a function that will take in the entire message object, the return type should be void (subject to change)"
+}
